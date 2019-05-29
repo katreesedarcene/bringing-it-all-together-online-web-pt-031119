@@ -9,10 +9,10 @@ class Dog
       @id = id
     end
     
-   def self.create_table(name:, album:)
-    song = Song.new(name, album)
-    song.save
-    song
+   def self.create_table(name:, breed:)
+    dog = Dog.new(name, breed)
+    dog.save
+    dog
   end
   
   
